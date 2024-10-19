@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Win_Design.Controls.Design_Controls.Design_Window"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Win_Design.Controls.Design_Controls"
+             mc:Ignorable="d" Height="260" Width="330">
+    <Grid Background="White">
+        <Grid x:Name="Title_Grid" Height="32" VerticalAlignment="Top" Background="#FF424242" d:LayoutOverrides="VerticalAlignment" Margin="5,5,5,0">
+            <Label x:Name="Title_Label" Content="Main Window" VerticalContentAlignment="Center" Margin="10,0,49,0" Foreground="#FFC5C5C5" Background="{x:Null}" MouseUp="Label_MouseUp"/>
+        </Grid>
+        <Grid x:Name="Design_Grid" Background="#FF252525" Margin="5,42,5,5"/>
+    </Grid>
+</UserControl>

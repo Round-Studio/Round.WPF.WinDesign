@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\User File\Desktop\Win_Design\Win_Design\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Controls\Design_Controls\Demo_Controls\Button.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\Design_Controls\Demo_Controls\Label.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\Design_Controls\Demo_Controls\TextBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\Design_Controls\Design_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\Design_Controls\Tools_Box.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Main_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Main_Page_SubProject\About.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Main_Page_SubProject\Console.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Main_Page_SubProject\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Main_Page_SubProject\Plug.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Main_Page_SubProject\Project.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Main_Page_SubProject\Project_SubProject\Design_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Main_Page_SubProject\Setting.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Add_Project.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Control_Setting\Add_Control.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Control_Setting\Setting_Control.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Work\Export_Design.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Work\Setting_Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\Design_Controls\Demo_Controls\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Design_Controls\Demo_Controls\Label.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Design_Controls\Demo_Controls\TextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Design_Controls\Design_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Design_Controls\Tools_Box.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Main_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Main_Page_SubProject\About.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Main_Page_SubProject\Console.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Main_Page_SubProject\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Main_Page_SubProject\Plug.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Main_Page_SubProject\Project.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Main_Page_SubProject\Project_SubProject\Design_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Main_Page_SubProject\Setting.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Add_Project.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Control_Setting\Add_Control.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Control_Setting\Setting_Control.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Work\Export_Design.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Work\Setting_Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

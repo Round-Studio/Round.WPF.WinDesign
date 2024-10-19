@@ -1,0 +1,22 @@
+﻿<Window x:Class="Win_Design.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Win_Design"
+        mc:Ignorable="d"
+        xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+        ui:ThemeManager.IsThemeAware="True"
+        ui:WindowHelper.SystemBackdropType="Mica"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        ui:TitleBar.Height="36"
+        ui:TitleBar.IsIconVisible="True"
+        Title="Win-Design" Height="520" Width="830" MinWidth="830" MinHeight="520" WindowStartupLocation="CenterScreen" Icon="/Win32ForC.png.png">
+    <Grid>
+        <ui:Frame x:Name="Main_Frame" Content="Frame" NavigationUIVisibility="Hidden"/>
+        <Button Margin="0,0,10,10" VerticalAlignment="Bottom" Height="37" Click="Button_Click" HorizontalAlignment="Right" Width="37">
+            <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DarkTheme_20_Filled}" HorizontalAlignment="Center" Height="14" Width="28"/>
+        </Button>
+
+    </Grid>
+</Window>

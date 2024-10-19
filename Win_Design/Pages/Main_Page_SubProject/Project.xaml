@@ -1,0 +1,27 @@
+﻿<Page x:Class="Win_Design.Pages.Main_Page_SubProject.Project"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Win_Design.Pages.Main_Page_SubProject"
+      xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Project">
+
+    <Grid>
+        <Label Content="你还未打开任何一个项目" Margin="0,56,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="42" VerticalAlignment="Top" FontSize="20"/>
+        <Button Margin="0,210,0,0" d:LayoutOverrides="LeftPosition, RightPosition" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click">
+            <Grid Height="18" Width="105">
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.Add_12_Filled}" HorizontalAlignment="Left" x:Name="lunch_ico" Margin="4,0,0,0"/>
+                <Label Content="创建项目" HorizontalAlignment="Left" Margin="39,0,0,0" d:LayoutOverrides="Height"/>
+            </Grid>
+        </Button>
+        <Button HorizontalAlignment="Center" Margin="0,245,0,0" VerticalAlignment="Top" Width="129" Click="Button_Click_1">
+            <Grid Height="18" Width="105">
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.MailOpenPerson_16_Filled}" HorizontalAlignment="Left" x:Name="lunch_ico1" Margin="4,0,0,0"/>
+                <Label Content="打开项目" HorizontalAlignment="Left" Margin="39,0,0,0" d:LayoutOverrides="Height"/>
+            </Grid>
+        </Button>
+    </Grid>
+</Page>
