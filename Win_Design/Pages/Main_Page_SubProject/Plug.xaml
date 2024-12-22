@@ -14,7 +14,7 @@
                 <Label Content="原生界面库" Margin="10,10,672,10" VerticalContentAlignment="Center" d:LayoutOverrides="VerticalAlignment"/>
             </Grid>
         </ListBox>
-        <Label Content="功能尚未开放" Margin="10,5,0,0" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="94" Height="28" VerticalAlignment="Top"/>
+        <Label Content="功能尚未开放" Margin="10,5,0,0" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="94" Height="28" VerticalAlignment="Top" Foreground="Red"/>
         <Label Content="已加载：" Margin="10,22,0,0" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="94" Height="28" VerticalAlignment="Top"/>
 
     </Grid>
