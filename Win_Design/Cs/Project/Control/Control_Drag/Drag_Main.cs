@@ -17,11 +17,14 @@ namespace Win_Design.Cs.Project.Control.Control_Drag
         System.Windows.Controls.Control Controlss = null;
         public void Drag_Control(System.Windows.Controls.Control controls)
         {
-            controls.MouseDown += Button_MouseDown;
-            controls.MouseUp += Button_MouseUp;
-            controls.MouseMove += Button_MouseMove;
-            Cs.API.Log.Logs.WriteLine($"控件移动设置");
-            Controlss = controls;
+            if(control != null)
+            {
+                controls.MouseDown += Button_MouseDown;
+                controls.MouseUp += Button_MouseUp;
+                controls.MouseMove += Button_MouseMove;
+                Cs.API.Log.Logs.WriteLine($"控件移动设置");
+                Controlss = controls;
+            }
         }
 
         private Point _mouseDownPosition;
